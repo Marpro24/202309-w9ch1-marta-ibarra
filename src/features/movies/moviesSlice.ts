@@ -22,4 +22,5 @@ const moviesSlice = createSlice({
   },
 });
 
+export const { loadMovies } = moviesSlice.actions;
 export default moviesSlice.reducer;
