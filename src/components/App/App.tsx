@@ -1,9 +1,13 @@
+import { Navigate, Route, Routes } from "react-router-dom";
+import MoviesListPage from "../../pages/MoviesListPage";
+
 const App = (): React.ReactElement => {
   return (
     <>
-      <div>
-        <h1>My favorite horror movies</h1>
-      </div>
+      <Routes>
+        <Route path="/" element={<Navigate to="/movies" />} />
+        <Route path="/movies" element={<MoviesListPage />} />
+      </Routes>
     </>
   );
 };

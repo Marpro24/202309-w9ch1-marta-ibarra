@@ -19,3 +19,8 @@ ul {
   padding-left: 0;
   margin: 0;
 }
+
+.main__container {
+  text-align: center;
+  padding: 20px;
+}
