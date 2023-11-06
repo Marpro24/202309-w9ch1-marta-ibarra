@@ -3,3 +3,7 @@ export interface Movies {
   title: string;
   year: number;
 }
+
+export interface MoviesStateStructure {
+  movies: Movies[];
+}
