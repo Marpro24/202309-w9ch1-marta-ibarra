@@ -9,6 +9,12 @@ const MoviesListStyled = styled.ul`
   .movie-container {
     display: flex;
   }
+
+  @media (min-width: 400px) {
+    .movie__container {
+      width: 400px;
+    }
+  }
 `;
 
 export default MoviesListStyled;
