@@ -5,7 +5,7 @@ const useMoviesApi = () => {
   const apiURL = import.meta.env.VITE_API_URL;
 
   const getMovies = useCallback(async (): Promise<Movies[]> => {
-    const response = await fetch(`${apiURL}`);
+    const response = await fetch(`${apiURL}/movies`);
     const movies = (await response.json()) as Movies[];
 
     return movies;

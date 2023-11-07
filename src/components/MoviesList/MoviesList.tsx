@@ -1,4 +1,5 @@
 import { useAppSelector } from "../../store/hooks";
+import MovieCard from "../MoviesCard/MoviesCard";
 
 const MoviesList = () => {
   const movies = useAppSelector((state) => state.moviesState.movies);
@@ -7,8 +8,7 @@ const MoviesList = () => {
     <ul>
       {movies.map((movie) => (
         <li key={movie.id}>
-          <span>{movie.name}</span>
-          <span>{movie.year}</span>
+          <MovieCard movie={movie} />
         </li>
       ))}
     </ul>
