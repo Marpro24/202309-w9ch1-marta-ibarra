@@ -1,6 +1,6 @@
 import { DefaultTheme } from "styled-components";
 
-const maintTheme: DefaultTheme = {
+const mainTheme: DefaultTheme = {
   color: {
     mainDarkColor: "#000",
     mainLightColor: "#fff",
@@ -10,4 +10,4 @@ const maintTheme: DefaultTheme = {
   },
 };
 
-export default maintTheme;
+export default mainTheme;
