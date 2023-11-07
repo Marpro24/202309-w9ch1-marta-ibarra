@@ -1,6 +1,6 @@
 export interface Movies {
   id: number;
-  title: string;
+  name: string;
   year: number;
 }
 
