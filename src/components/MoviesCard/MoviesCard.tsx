@@ -9,7 +9,13 @@ interface MoviesProps {
 const MovieCard = ({ movie }: MoviesProps): React.ReactElement => {
   return (
     <MoviesCardStyled>
-      <img src={movie.image} alt={`${movie.name}`} className="movie__image" />
+      <img
+        src={movie.image}
+        alt={`${movie.name}`}
+        className="movie__image"
+        width={300}
+        height={450}
+      />
       <h2 className="movie__title">{movie.name}</h2>
       <span>{`Year: ${movie.year}`}</span>
     </MoviesCardStyled>
