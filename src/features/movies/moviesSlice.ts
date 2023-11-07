@@ -11,14 +11,12 @@ const moviesSlice = createSlice({
   initialState: initialMoviesState,
   reducers: {
     loadMovies: (
-      currentState: MoviesStateStructure,
+      currentState,
       action: PayloadAction<Movies[]>,
-    ): MoviesStateStructure => {
-      return {
-        ...currentState,
-        movies: action.payload,
-      };
-    },
+    ): MoviesStateStructure => ({
+      ...currentState,
+      movies: action.payload,
+    }),
   },
 });
 
