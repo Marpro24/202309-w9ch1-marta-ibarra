@@ -1,13 +1,14 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import MoviesListPage from "../../pages/MoviesListPage";
+import AppStyled from "./AppStyled";
 
 const App = (): React.ReactElement => (
-  <div>
+  <AppStyled>
     <Routes>
       <Route path="/" element={<Navigate to="/movies" />} />
       <Route path="/movies" element={<MoviesListPage />} />
     </Routes>
-  </div>
+  </AppStyled>
 );
 
 export default App;
