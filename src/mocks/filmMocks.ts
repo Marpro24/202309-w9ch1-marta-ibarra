@@ -7,6 +7,7 @@ const filmsMock: Movies[] = [
     year: 1979,
     image:
       "https://raw.githubusercontent.com/Marpro24/https-github.com-Marpro24-202309-movie-api-marta-ibarra/main/pictures/alien.webp",
+    isWatched: false,
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ const filmsMock: Movies[] = [
     year: 1991,
     image:
       "https://raw.githubusercontent.com/Marpro24/https-github.com-Marpro24-202309-movie-api-marta-ibarra/main/pictures/silenceofthelambs.webp",
+    isWatched: false,
   },
   {
     id: 3,
@@ -21,6 +23,7 @@ const filmsMock: Movies[] = [
     year: 2017,
     image:
       "https://raw.githubusercontent.com/Marpro24/https-github.com-Marpro24-202309-movie-api-marta-ibarra/main/pictures/getout.webp",
+    isWatched: false,
   },
   {
     id: 4,
@@ -28,6 +31,7 @@ const filmsMock: Movies[] = [
     year: 2018,
     image:
       "https://raw.githubusercontent.com/Marpro24/https-github.com-Marpro24-202309-movie-api-marta-ibarra/main/pictures/aquietplacejpg.webp",
+    isWatched: false,
   },
   {
     id: 5,
@@ -35,6 +39,7 @@ const filmsMock: Movies[] = [
     year: 2001,
     image:
       "https://raw.githubusercontent.com/Marpro24/https-github.com-Marpro24-202309-movie-api-marta-ibarra/main/pictures/espinazodeldiablo.webp",
+    isWatched: false,
   },
 ];
 
