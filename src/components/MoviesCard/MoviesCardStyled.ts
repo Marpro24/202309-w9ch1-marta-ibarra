@@ -13,6 +13,11 @@ const MoviesCardStyled = styled.div`
   .movie__title {
     padding: 20px;
   }
+
+  .movie__checkbox {
+    width: 30px;
+    height: 30px;
+  }
 `;
 
 export default MoviesCardStyled;
