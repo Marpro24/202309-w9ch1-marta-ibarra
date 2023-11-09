@@ -6,6 +6,13 @@ export interface Movies {
   isWatched: boolean;
 }
 
+export interface NoIdMovie {
+  name: string;
+  year: number;
+  image: string;
+  isWatched: boolean;
+}
+
 export interface MoviesStateStructure {
   movies: Movies[];
 }

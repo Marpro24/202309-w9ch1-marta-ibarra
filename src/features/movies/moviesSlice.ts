@@ -27,6 +27,17 @@ const moviesSlice = createSlice({
           movie.id === action.payload ? !movie.isWatched : movie.isWatched,
       })),
     }),
+    addMovie: (
+      currentState,
+      action: PayloadAction<Movies>,
+    ): MoviesStateStructure => ({
+      ...currentState,
+      movies: currentState.movies.splice(
+        currentState.movies.length - 1,
+        0,
+        action.payload,
+      ),
+    }),
   },
 });
 
