@@ -23,6 +23,22 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
 
   }
+  
+  button {
+    border: none;
+    font: inherit;
+    background-color: transparent;
+  }
+
+  input {
+    font: inherit
+  }
+
+  input[type="checkbox"] {
+width: 30px;
+height: 30px;
+
+  }
 `;
 
 export default GlobalStyle;

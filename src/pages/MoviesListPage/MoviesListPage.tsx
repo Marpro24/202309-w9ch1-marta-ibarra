@@ -1,8 +1,8 @@
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
-import { loadMoviesActionCreator } from "../features/movies/moviesSlice";
-import useMoviesApi from "../hooks/useMoviesApi";
-import MoviesList from "../components/MoviesList/MoviesList";
+import { loadMoviesActionCreator } from "../../features/movies/moviesSlice";
+import useMoviesApi from "../../hooks/useMoviesApi";
+import MoviesList from "../../components/MoviesList/MoviesList";
 import MoviesListPageStyled from "./MoviesListPageStyled";
 
 const MoviesListPage = (): React.ReactElement => {
