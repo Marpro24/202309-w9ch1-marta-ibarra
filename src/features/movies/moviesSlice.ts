@@ -16,7 +16,6 @@ const moviesSlice = createSlice({
       ...currentState,
       movies: action.payload,
     }),
-
     toggleWatchedMovie: (
       currentState,
       action: PayloadAction<number>,
