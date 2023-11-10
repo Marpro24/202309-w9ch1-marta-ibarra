@@ -28,7 +28,7 @@ const MovieCard = ({ movie }: MoviesProps): React.ReactElement => {
         height={450}
       />
       <h2 className="movie__title">{movie.name}</h2>
-      <span>{`Year: ${movie.year}`}</span>
+      <span className="movie__year">{`Year: ${movie.year}`}</span>
       <label className="movie__label">
         Watched
         <input

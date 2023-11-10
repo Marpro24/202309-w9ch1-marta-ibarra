@@ -5,6 +5,7 @@ const MoviesListPageStyled = styled.main`
     border: solid;
     border-radius: 30px;
     padding: 20px;
+    margin: 20px;
   }
 `;
 
