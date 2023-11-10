@@ -5,6 +5,10 @@ const MoviesCardStyled = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 30px;
+  border: solid;
+  border-color: #000;
+  border-radius: 30px;
+  margin: 20px;
 
   .movie__image {
     object-fit: contain;
@@ -12,6 +16,10 @@ const MoviesCardStyled = styled.div`
 
   .movie__title {
     padding: 20px;
+  }
+
+  .movie__year {
+    padding-bottom: 25px;
   }
 
   .movie__checkbox {
