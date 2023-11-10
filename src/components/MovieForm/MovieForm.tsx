@@ -2,7 +2,7 @@ import MoviesFormStyled from "./MovieFormStyled";
 
 const movieForm = (): React.ReactElement => {
   return (
-    <MoviesFormStyled>
+    <MoviesFormStyled className="form">
       <label className="form__label" htmlFor="title">
         Title:
       </label>
